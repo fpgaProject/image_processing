@@ -27,26 +27,30 @@ module main(
     input clk,
     output ValidResult,
     output [7:0] Pixel_address,
-    output reg pixel_out
+    output reg [20:0] pixel_out = 0
     );
 
-reg counter = 0;
-reg [8:0] data;
+reg [20:0] counter = 0;
+reg [8:0] data = 0;
 reg Get9 = 1'b0;
 reg [100:0] result = 0;
+reg [20:0] allPixels = 0;
 wire res;
 
 always @(posedge clk) begin
-data <= {data[8:1],pixel_in};
-counter <= counter + 1'b1;
-if(counter == 9)
+if(start == 1'b1) begin
+	data[8:0] <= {pixel_in , data[8:1]};
+	counter <= counter + 1'b1;
+end
+if(counter == 8)
 	Get9  <= 1'b1;
-if(Get9 == 1'b1)
-	pixel_out <= res;
+if(Get9 == 1'b1) begin
+	pixel_out <= {pixel_out[19:0] , res};
+end
 
 end
 
-sobel(data,res);
+ sobel so (data,res);
 	
 endmodule
 
