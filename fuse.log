@@ -1,25 +1,29 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/university/fpga/project/image_processing/TestSobel_isim_beh.exe -prj D:/university/fpga/project/image_processing/TestSobel_beh.prj work.TestSobel work.glbl 
+Running: D:\xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/university/fpga/project/image_processing/initTest_isim_beh.exe -prj D:/university/fpga/project/image_processing/initTest_beh.prj work.initTest work.glbl 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "D:/university/fpga/project/image_processing/sobel.v" into library work
-WARNING:HDLCompiler:327 - "D:/university/fpga/project/image_processing/sobel.v" Line 28: Concatenation with unsized literal; will interpret as 32 bits
-WARNING:HDLCompiler:327 - "D:/university/fpga/project/image_processing/sobel.v" Line 29: Concatenation with unsized literal; will interpret as 32 bits
 Analyzing Verilog file "D:/university/fpga/project/image_processing/main.v" into library work
-Analyzing Verilog file "D:/university/fpga/project/image_processing/TestSobel.v" into library work
-Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Analyzing Verilog file "D:/university/fpga/project/image_processing/initTest.v" into library work
+WARNING:HDLCompiler:327 - "D:/university/fpga/project/image_processing/initTest.v" Line 68: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "D:/university/fpga/project/image_processing/initTest.v" Line 70: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "D:/university/fpga/project/image_processing/initTest.v" Line 72: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "D:/university/fpga/project/image_processing/initTest.v" Line 74: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "D:/university/fpga/project/image_processing/initTest.v" Line 76: Concatenation with unsized literal; will interpret as 32 bits
+Analyzing Verilog file "D:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:327 - "D:/university/fpga/project/image_processing/sobel.v" Line 28: Concatenation with unsized literal; will interpret as 32 bits
-WARNING:HDLCompiler:327 - "D:/university/fpga/project/image_processing/sobel.v" Line 29: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "D:/university/fpga/project/image_processing/initTest.v" Line 68: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "D:/university/fpga/project/image_processing/initTest.v" Line 70: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "D:/university/fpga/project/image_processing/initTest.v" Line 72: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "D:/university/fpga/project/image_processing/initTest.v" Line 74: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "D:/university/fpga/project/image_processing/initTest.v" Line 76: Concatenation with unsized literal; will interpret as 32 bits
 Completed static elaboration
-Compiling module sobel
 Compiling module main
-Compiling module TestSobel
+Compiling module initTest
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 4 Verilog Units
-Built simulation executable D:/university/fpga/project/image_processing/TestSobel_isim_beh.exe
-Fuse Memory Usage: 28708 KB
-Fuse CPU Usage: 499 ms
+Compiled 3 Verilog Units
+Built simulation executable D:/university/fpga/project/image_processing/initTest_isim_beh.exe
+Fuse Memory Usage: 28700 KB
+Fuse CPU Usage: 530 ms

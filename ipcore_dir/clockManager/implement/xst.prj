@@ -1,0 +1,2 @@
+verilog work ../../clockManager.v
+verilog work ../example_design/clockManager_exdes.v

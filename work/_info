@@ -1,0 +1,260 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/university/fpga/project/image_processing
+T_opt
+!s110 1610268483
+V8^`FfcgGD`T[lRjZbdX7:2
+Z1 04 4 4 work main fast 0
+Z2 04 4 4 work glbl fast 0
+=1-c85b76f47ed2-5ffabf42-2a8-3a7c
+Z3 o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;10.5;63
+R0
+T_opt1
+!s110 1610237100
+V8eVbT4Lz;kiC46Xh[E7RN0
+R1
+R2
+=1-c85b76f47ed2-5ffa44ac-28c-3e2c
+R3
+R4
+n@_opt1
+R5
+R0
+T_opt10
+!s110 1610312611
+VX2Uz?fWM[^M6Y3llXNXLF3
+R1
+R2
+=1-c85b76f47ed2-5ffb6ba3-1bb-f34
+R3
+R4
+n@_opt10
+R5
+R0
+T_opt11
+!s110 1610313631
+VaL^VniGmdjI1IP`Z:nANc0
+R1
+R2
+=1-c85b76f47ed2-5ffb6f9f-15d-3438
+R3
+R4
+n@_opt11
+R5
+R0
+T_opt12
+!s110 1610314373
+V:_J[7ShOJdb=Ro8ce2oQV2
+R1
+R2
+=1-c85b76f47ed2-5ffb7285-d5-1030
+R3
+R4
+n@_opt12
+R5
+T_opt2
+!s110 1610235406
+Vg7@TcUEAP067GHi?Go^EH0
+R1
+R2
+=1-c85b76f47ed2-5ffa3e0e-240-3b70
+R3
+R4
+n@_opt2
+R5
+R0
+T_opt3
+!s110 1610265560
+VYMKJE=gdYTF;@b:0NBDed2
+R1
+R2
+=1-c85b76f47ed2-5ffab3d7-f7-3b14
+R3
+R4
+n@_opt3
+R5
+R0
+T_opt4
+!s110 1610270227
+VLel_@60m7a:b15Aj]mWb62
+R1
+R2
+=1-c85b76f47ed2-5ffac613-2dd-1a50
+R3
+R4
+n@_opt4
+R5
+R0
+T_opt5
+!s110 1610303706
+V2BcUJ42OiDh9fhhi:46B=3
+R1
+R2
+=1-c85b76f47ed2-5ffb48d9-395-21e0
+R3
+R4
+n@_opt5
+R5
+R0
+T_opt6
+!s110 1610307603
+VhbC6niTV@WC>S`j1jdgTo0
+R1
+R2
+=1-c85b76f47ed2-5ffb5813-179-10bc
+R3
+R4
+n@_opt6
+R5
+R0
+T_opt7
+!s110 1610310263
+V0zi>NhBICfkcJ?1Ql`6b20
+04 10 4 work testSecond fast 0
+R2
+=1-c85b76f47ed2-5ffb6277-145-ff4
+R3
+R4
+n@_opt7
+R5
+R0
+T_opt8
+!s110 1610310391
+VTj@gEdRZGZigMQLJLP9L13
+R1
+R2
+=1-c85b76f47ed2-5ffb62f7-270-2ba0
+R3
+R4
+n@_opt8
+R5
+R0
+T_opt9
+!s110 1610311689
+Vh_44Zkah_SQ9GT9QXee>@1
+R1
+R2
+=1-c85b76f47ed2-5ffb6809-3d-3598
+R3
+R4
+n@_opt9
+R5
+R0
+vglbl
+Z6 !s110 1610314309
+!i10b 1
+!s100 UlJ]9LUWO:ZWoRO62F9fW3
+IENPF6nC]dgZVlD7=7=Fd;2
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1381681120
+8D:/university/fpga/project/image_processing/glbl.v
+FD:/university/fpga/project/image_processing/glbl.v
+L0 5
+Z8 OL;L;10.5;63
+r1
+!s85 0
+31
+Z9 !s108 1610314309.000000
+!s107 D:/university/fpga/project/image_processing/glbl.v|
+!s90 -work|work|-vopt|-stats=none|D:/university/fpga/project/image_processing/glbl.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vinitTest
+!s110 1610265517
+!i10b 1
+!s100 _mBTN:ISe`9E:aW0Z5l7L0
+IS`<kFWOg?DfUi=h7<@WJk2
+R7
+R0
+w1610214790
+8initTest.v
+FinitTest.v
+Z11 L0 25
+R8
+r1
+!s85 0
+31
+!s108 1610265517.000000
+!s107 initTest.v|
+!s90 -reportprogress|300|initTest.v|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+ninit@test
+vmain
+R6
+!i10b 1
+!s100 eRm2@DEY@fMUTeO>7GL>]1
+IE<h=jbHa?D1AS2JeQCUcG0
+R7
+R0
+w1610314154
+8D:/university/fpga/project/image_processing/main.v
+FD:/university/fpga/project/image_processing/main.v
+L0 21
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/university/fpga/project/image_processing/main.v|
+!s90 -work|work|-vopt|-stats=none|D:/university/fpga/project/image_processing/main.v|
+!i113 0
+R10
+R4
+vtestSecond
+!s110 1610311229
+!i10b 1
+!s100 <G`edjmoHaWYG8Q[MTP?F3
+IkDe0PKnJ7E?HP7XT2KQhZ0
+R7
+R0
+w1610308614
+8testSecond.v
+FtestSecond.v
+R11
+R8
+r1
+!s85 0
+31
+!s108 1610311229.000000
+!s107 testSecond.v|
+!s90 -reportprogress|300|testSecond.v|
+!i113 0
+R12
+R4
+ntest@second
+vTestSobel
+!s110 1610269988
+!i10b 1
+!s100 f:_DG;bGi]^SQI3?233662
+I4WFibzRDSSA10aCNoo^XS1
+R7
+R0
+w1609089269
+8TestSobel.v
+FTestSobel.v
+R11
+R8
+r1
+!s85 0
+31
+!s108 1610269988.000000
+!s107 TestSobel.v|
+!s90 -reportprogress|300|TestSobel.v|
+!i113 0
+R12
+R4
+n@test@sobel

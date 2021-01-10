@@ -1,0 +1,44 @@
+    ____  ____
+   /   /\/   /
+  /___/  \  /    VENDOR      : Xilinx Inc.
+  \   \   \/     VERSION     : 14.7 (P.20131013)
+   \   \         APPLICATION : C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe
+   /   /         CONTENTS    : Compilation Log
+  /___/   /\     FILENAME    : compxlib.log
+  \   \  /  \    
+   \___\/\___\
+
+Release 14.7 - C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe 14.7 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Processing command line ...
+Reading the compxlib configuration file - 'compxlib.cfg' ...
+Library Source Paths => 'C:/Xilinx/14.7/ISE_DS/ISE'
+Current Working Directory => 'D:\university\fpga\project\image_processing'
+Compilation Mode = FAST
+Execute Mode = ON
+Scheduling library installation & compilation for architectures: spartan6
+
+Scheduling library installation & compilation for libraries: simprim unisim xilinxcorelib edk
+
+Signature:-
+------------------------------------------------------------------------------
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe -s mti_se -l verilog -p C:/modeltech64_10.5/win64 -arch spartan6 -lib unisim -lib simprim -lib xilinxcorelib -lib edk -exclude_superseded -intstyle ise 
+------------------------------------------------------------------------------
+Get MODELSIM environment variable
+MODELSIM: ( => 'C:\modeltech64_10.5\modelsim.ini' )
+Using MODELSIM ( => 'C:\modeltech64_10.5\modelsim.ini' )
+
+Setting up the simulator 'mti_se' for compilation ...
+The executable path is set to 'C:/modeltech64_10.5/win64' ...
+Setting up the source libraries for simulator 'mti_se' ...
+Retrieving the .pao files for EDK library ...
+Building the library hierarchies from the .pao files for EDK library ...
+Assigning the netlist files to the hierarchies for EDK library ...
+
+
+
+Compiling Xilinx HDL Libraries for 'mti_se' simulator
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+Language => 'verilog,vhdl'
+ERROR:Compxlib:239 - COMPXLIB[file]: Non-writable setup file 'C:\modeltech64_10.5\modelsim.ini' detected.Please ensure that it has write permissions.

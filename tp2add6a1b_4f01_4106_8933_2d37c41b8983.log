@@ -1,0 +1,35 @@
+if { [catch {vsimulink main -voptargs="+acc" -t 1ps -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work glbl } errmsg] } {
+    echo "Loading simulation and HDL Verifier library failed."; 
+    echo $errmsg; 
+    quit -f; 
+}
+# vsim main -voptargs=""+acc"" -t 1ps -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work glbl -foreign "simlinkserver {C:/Program Files/Polyspace/R2019b/toolbox/edalink/extensions/modelsim/windows64/liblfmhdls_gcc450vc12.dll}  ; -batch  ; -socket 7470 " 
+# Start time: 23:10:02 on Jan 10,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.main(fast)
+# Loading work.glbl(fast)
+# Loading C:/Program Files/Polyspace/R2019b/toolbox/edalink/extensions/modelsim/windows64/liblfmhdls_gcc450vc12.dll
+# ************************************************************************
+# HDL server has been started in batch mode. The HDL simulator will be 
+# blocked until Simulink starts cosimulation. If you do not want to run
+# in batch mode, restart the HDL simulator in a different run mode. To 
+# exit the HDL simulator without running a cosimulation session, issue 
+# the breakHdlSim('7470') command in MATLAB.
+
+# 
+# <EOF>
+# End time: 23:10:05 on Jan 10,2021, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

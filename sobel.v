@@ -19,11 +19,11 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module sobel(
-    input [8:0] Pixels,
+    input [7:0] Pixels [8:0],
     output  PixelFilter
     );
-wire [4:0] Dx;
-wire [4:0] Dy;
+wire [31:0] Dx;
+wire [31:0] Dy;
 
 assign Dx = (Pixels[0] + !Pixels[6]) + {Pixels[1] + !Pixels[7] , 0} + (Pixels[2]+ !Pixels[8]);
 assign Dy = (Pixels[8] + !Pixels[6]) + {Pixels[5] + !Pixels[3] , 0} + (Pixels[2]+ !Pixels[0]);

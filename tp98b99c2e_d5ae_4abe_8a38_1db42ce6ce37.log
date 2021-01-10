@@ -1,0 +1,24 @@
+if { [catch {vsimulink main -voptargs="+acc" -t 1ps -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work glbl } errmsg] } {
+    echo "Loading simulation and HDL Verifier library failed."; 
+    echo $errmsg; 
+    quit -f; 
+}
+# vsim main -voptargs=""+acc"" -t 1ps -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work glbl -foreign "simlinkserver {C:/Program Files/Polyspace/R2019b/toolbox/edalink/extensions/modelsim/windows64/liblfmhdls_gcc450vc12.dll}  ; -batch  ; -socket 3579 " 
+# Start time: 01:02:04 on Jan 11,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-3) System call VirtualAlloc() failed.
+# The system cannot find the file specified. (GetLastError() = 2)
+# ** Fatal: (vopt-4) ****** Memory allocation failure. *****
+# Attempting to allocate 131072 bytes
+# Please check your system for available memory and swap space.
+# ** Fatal: (vopt-4) ****** Memory allocation failure. *****
+# Attempting to allocate 131072 bytes
+# Please check your system for available memory and swap space.
+# ** Error: Vopt Compiler exiting
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 9.
+# Error loading design
+# Error: Error loading design
+#        Executing onElabError command(s): echo "Loading simulation and HDL Verifier library failed."; quit -f
+# Loading simulation and HDL Verifier library failed.
+# End time: 01:02:05 on Jan 11,2021, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0

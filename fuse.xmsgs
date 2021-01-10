@@ -5,16 +5,34 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/university/fpga/project/image_processing/sobel.v" Line 28: Concatenation with unsized literal; will interpret as 32 bits
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/university/fpga/project/image_processing/initTest.v" Line 68: Concatenation with unsized literal; will interpret as 32 bits
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/university/fpga/project/image_processing/sobel.v" Line 29: Concatenation with unsized literal; will interpret as 32 bits
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/university/fpga/project/image_processing/initTest.v" Line 70: Concatenation with unsized literal; will interpret as 32 bits
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/university/fpga/project/image_processing/sobel.v" Line 28: Concatenation with unsized literal; will interpret as 32 bits
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/university/fpga/project/image_processing/initTest.v" Line 72: Concatenation with unsized literal; will interpret as 32 bits
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/university/fpga/project/image_processing/sobel.v" Line 29: Concatenation with unsized literal; will interpret as 32 bits
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/university/fpga/project/image_processing/initTest.v" Line 74: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/university/fpga/project/image_processing/initTest.v" Line 76: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/university/fpga/project/image_processing/initTest.v" Line 68: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/university/fpga/project/image_processing/initTest.v" Line 70: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/university/fpga/project/image_processing/initTest.v" Line 72: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/university/fpga/project/image_processing/initTest.v" Line 74: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/university/fpga/project/image_processing/initTest.v" Line 76: Concatenation with unsized literal; will interpret as 32 bits
 </msg>
 
 </messages>
