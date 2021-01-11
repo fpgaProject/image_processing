@@ -13,18 +13,16 @@
 # //  18 U.S.C. Section 1905.
 # //
 # do compile_and_launch.tcl
-# vsim main -voptargs=""+acc"" -t 1ps -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work glbl -foreign "matlabsysobjserver {C:/Program Files/Polyspace/R2019b/toolbox/edalink/extensions/modelsim/windows64/liblfmhdls_gcc450vc12.dll}  ; -socket 3610 " 
-# Start time: 01:04:02 on Jan 11,2021
-# ** Note: (vsim-8009) Loading existing optimized design _opt12
+# vsim main -voptargs=""+acc"" -t 1ps -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work glbl -foreign "matlabsysobjserver {C:/Program Files/Polyspace/R2019b/toolbox/edalink/extensions/modelsim/windows64/liblfmhdls_gcc450vc12.dll}  ; -socket 3598 " 
+# Start time: 14:14:19 on Jan 11,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt17
 # Loading work.main(fast)
 # Loading work.glbl(fast)
 # Loading C:/Program Files/Polyspace/R2019b/toolbox/edalink/extensions/modelsim/windows64/liblfmhdls_gcc450vc12.dll
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: User  Hostname: DESKTOP-OR1F9MT  ProcessID: 15624
-#           Attempting to use alternate WLF file "./wlft5t9615".
+#           Attempting to use alternate WLF file "./wlftb7t8dm".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft5t9615
-# done
-# Simulation halt requested by foreign interface.
+#           Using alternate file: ./wlftb7t8dm
 # done
 # Simulation halt requested by foreign interface.
