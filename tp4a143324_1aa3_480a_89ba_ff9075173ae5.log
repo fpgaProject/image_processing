@@ -1,8 +1,0 @@
-if { [catch {vsimulink main -voptargs="+acc" -t 1ps -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work glbl } errmsg] } {
-    echo "Loading simulation and HDL Verifier library failed."; 
-    echo $errmsg; 
-    quit -f; 
-}
-# ** Error: (vsim-3) System call VirtualAlloc() failed.
-# The system cannot find the file specified. (GetLastError() = 2)
-# Errors: 1, Warnings: 0

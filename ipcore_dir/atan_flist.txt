@@ -1,0 +1,15 @@
+# Output products list for <atan>
+_xmsgs\pn_parser.xmsgs
+atan.asy
+atan.gise
+atan.ngc
+atan.sym
+atan.v
+atan.veo
+atan.xco
+atan.xise
+atan\doc\cordic_ds249.pdf
+atan\doc\cordic_v4_0_vinfo.html
+atan_flist.txt
+atan_readme.txt
+atan_xmdf.tcl

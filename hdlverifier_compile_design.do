@@ -4,8 +4,11 @@ vlib work
 project new . compile_project
 project open compile_project
 # Add source files to project
-project addfile "D:/university/fpga/project/image_processing/main.v"
+project addfile "D:/university/fpga/project/image_processing/canny.v"
 project addfile "D:/university/fpga/project/image_processing/glbl.v"
+project addfile "D:/university/fpga/project/image_processing/main.v"
+project addfile "D:/university/fpga/project/image_processing/median.v"
+project addfile "D:/university/fpga/project/image_processing/sobel.v"
 # Calculate compilation order
 project calculateorder
 set compcmd [project compileall -n]
